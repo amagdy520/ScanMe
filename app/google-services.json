@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "783493078154",
+    "firebase_url": "https://scanme-65c46.firebaseio.com",
+    "project_id": "scanme-65c46",
+    "storage_bucket": "scanme-65c46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783493078154:android:c4e6805f44a0f28a",
+        "android_client_info": {
+          "package_name": "com.scan.me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783493078154-19llguraqclplubvspd8pmd1ouoekhht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scan.me",
+            "certificate_hash": "e1f1ff80b194863ed29417daec1dbe7815bf64ad"
+          }
+        },
+        {
+          "client_id": "783493078154-386i0pkocg4ncudtgadkg6tcfr5alekp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvUm-EqPzKPfbE50Q_Uj5Ne3oFUBNYplY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783493078154-386i0pkocg4ncudtgadkg6tcfr5alekp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

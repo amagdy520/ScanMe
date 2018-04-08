@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ofwaid"
+    android:fillViewport="true"
+    android:gravity="center"
+    tools:context="com.scan.me.SubmittionScreen.Submittion">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Data"
+                android:textColor="@color/colorText"
+                android:textSize="16sp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/monsoon">
+
+                <EditText
+                    android:id="@+id/_sName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:focusable="false"
+                    android:hint="Name"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/monsoon"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/monsoon">
+
+                <EditText
+                    android:id="@+id/_sAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:focusable="false"
+                    android:hint="Age"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/monsoon"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/monsoon">
+
+                <EditText
+                    android:id="@+id/_sAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:focusable="false"
+                    android:hint="Address"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/monsoon"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/monsoon">
+
+                <EditText
+                    android:id="@+id/_sEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:focusable="false"
+                    android:hint="Email"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/monsoon"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/monsoon">
+
+                <EditText
+                    android:id="@+id/_sPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:focusable="false"
+                    android:hint="Phone"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/monsoon"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/monsoon">
+
+                <EditText
+                    android:id="@+id/_sSchool"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:focusable="false"
+                    android:hint="School"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/monsoon"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/monsoon">
+
+                <EditText
+                    android:id="@+id/_sGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:focusable="false"
+                    android:hint="Gender"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/monsoon"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/monsoon">
+
+                <EditText
+                    android:id="@+id/_sAcademic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:focusable="false"
+                    android:hint="Academic Year"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/monsoon"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/monsoon">
+
+                <EditText
+                    android:id="@+id/_sSSN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:focusable="false"
+                    android:hint="SSN"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/monsoon"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/monsoon">
+
+                <EditText
+                    android:id="@+id/_sDOT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:focusable="false"
+                    android:hint="Date of Birth"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/monsoon"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Screens background -->
+    <color name="bg_screen1">#b12515</color>
+    <color name="bg_screen2">#FFBB00</color>
+    <color name="bg_screen3">#74a443</color>
+
+    <color name="gray">#c2c2c2</color>
+    <!-- dots active colors -->
+    <color name="dot_active">#000000</color>
+
+    <color name="play">#20525a</color>
+    <color name="play_dark">#173a40</color>
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#cccccc</color>
+
+    <color name="accent">#FFFFFF</color>
+    <color name="ofwaid">#f2f2f2</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="primary">#E43F3F</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+
+    <color name="interest">#5cdbbff5</color>
+    <color name="purple">#7D26CD</color>
+    <color name="purple1">#2E0854</color>
+    <color name="purple2">#BDA0CB</color>
+
+    <color name="purple3">#E066FF</color>
+    <color name="purple4">#816687</color>
+    <color name="purple5">#BA55D3</color>
+
+    <color name="colorBackground">#231f20</color>
+    <color name="colorText">#d92127</color>
+</resources>

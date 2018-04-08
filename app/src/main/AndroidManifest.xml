@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.scan.me">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/luncher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/SplashTheme">
+
+        <!-- Activity For Image Cropper -->
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StartScreen.StartScreen"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".EnteryScreen.EntryActivity"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".CreateScreen.CreateActivity"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".UserProfile.UserProfile"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".UserProfile.Setting.SettingActivity"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".UserProfile.NewDocument.NewDocument"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".SingleEvent.SingleEvent"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".SubmittionScreen.Submittion"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".Scan.CaptureActivityPortrait"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".SearchScreen.SearchActivity"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".SearchProfile.SearchUserActivity"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".CustomerSubmittion.CustomerSubmittion"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".Scan.ShowData"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".ScanToSendData.SubmitData"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".ShowQrCode.AlreadySubmit"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".Follow.Follower.FollowerActivity"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".Follow.Following.FollowingActivity"
+            android:theme="@style/FullScreenTheme2" />
+        <activity
+            android:name=".Attendance.Attendance"
+            android:theme="@style/FullScreenTheme2" />
+        <activity android:name=".Attendance.UserAttendance.UserAttendance"
+            android:theme="@style/FullScreenTheme2"
+            />
+    </application>
+
+</manifest>

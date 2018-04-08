@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ScanMe</string>
+    <string name="forget">Forget Password!?</string>
+    <string name="home">Home</string>
+    <string name="account">My Profile</string>
+    <string name="qr">My Code</string>
+    <string name="createnew">Create New</string>
+    <string name="setting">Setting</string>
+    <string name="logout">Log Out</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_date">Date</string>
+    <string name="event_description">Description</string>
+    <string name="event_address">Address</string>
+    <string name="document">New Post</string>
+    <string name="post"><![CDATA[Save & Post]]></string>
+    <string name="scan">Scan</string>
+</resources>
